@@ -210,4 +210,10 @@ Twelve separate serialized campus files need a local writer protocol and atomic 
 - [x] File format and line-count tests, raw timings and averages.
 - [x] Local MySQL injection, commit-and-rollback, migration and metadata experiments.
 - [x] Original Java 17 append API variant verified.
-- [ ] Final execution screenshot audit.
+- [x] Captured program evidence. The full 1, 10 and 50 MiB benchmark is recorded in lines.csv. Its long repeat finished while the desktop returned a black capture, so the saved interactive screenshot uses a separate real 1 MiB run. Launch it with java -cp build FileBench lines smoke.
+
+## Measured comparisons
+
+![line count](figures/line-count.svg)
+
+![jdbc inserts](figures/jdbc-inserts.svg)

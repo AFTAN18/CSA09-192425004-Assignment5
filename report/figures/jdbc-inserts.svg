@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="480" viewBox="0 0 880 480" role="img">
+<title>MySQL insert time by execution method</title>
+<rect width="880" height="480" fill="#ffffff"/>
+<g font-family="Arial, sans-serif">
+<text x="102" y="35" font-size="22" text-anchor="start" fill="#253141" font-weight="700">MySQL insert time by execution method</text>
+<text x="102" y="58" font-size="14" text-anchor="start" fill="#253141" font-weight="400">Mean elapsed milliseconds, log scale</text>
+<line x1="102" y1="376.0" x2="810" y2="376.0" stroke="#dbe4eb"/>
+<text x="90" y="381" font-size="12" text-anchor="end" fill="#253141" font-weight="400">1</text>
+<line x1="102" y1="317.2" x2="810" y2="317.2" stroke="#dbe4eb"/>
+<text x="90" y="322" font-size="12" text-anchor="end" fill="#253141" font-weight="400">10</text>
+<line x1="102" y1="258.4" x2="810" y2="258.4" stroke="#dbe4eb"/>
+<text x="90" y="263" font-size="12" text-anchor="end" fill="#253141" font-weight="400">100</text>
+<line x1="102" y1="199.6" x2="810" y2="199.6" stroke="#dbe4eb"/>
+<text x="90" y="205" font-size="12" text-anchor="end" fill="#253141" font-weight="400">1000</text>
+<line x1="102" y1="140.8" x2="810" y2="140.8" stroke="#dbe4eb"/>
+<text x="90" y="146" font-size="12" text-anchor="end" fill="#253141" font-weight="400">10000</text>
+<line x1="102" y1="82.0" x2="810" y2="82.0" stroke="#dbe4eb"/>
+<text x="90" y="87" font-size="12" text-anchor="end" fill="#253141" font-weight="400">100000</text>
+<text x="102" y="400" font-size="12" text-anchor="middle" fill="#253141" font-weight="400">10</text>
+<text x="456" y="400" font-size="12" text-anchor="middle" fill="#253141" font-weight="400">1,000</text>
+<text x="633" y="400" font-size="12" text-anchor="middle" fill="#253141" font-weight="400">10,000</text>
+<text x="810" y="400" font-size="12" text-anchor="middle" fill="#253141" font-weight="400">100,000</text>
+<text x="456" y="421" font-size="14" text-anchor="middle" fill="#253141" font-weight="400">Rows inserted</text>
+<polyline points="102.0,326.8 456.0,258.7 633.0,203.2 810.0,141.7" fill="none" stroke="#085f9e" stroke-width="3"/>
+<circle cx="102.0" cy="326.8" r="5" fill="#085f9e"/>
+<circle cx="456.0" cy="258.7" r="5" fill="#085f9e"/>
+<circle cx="633.0" cy="203.2" r="5" fill="#085f9e"/>
+<circle cx="810.0" cy="141.7" r="5" fill="#085f9e"/>
+<circle cx="102" cy="440" r="4" fill="#085f9e"/>
+<text x="113" y="444" font-size="13" text-anchor="start" fill="#253141" font-weight="400">prepared</text>
+<polyline points="102.0,333.7 456.0,295.7 633.0,245.5 810.0,192.8" fill="none" stroke="#a8491f" stroke-width="3"/>
+<circle cx="102.0" cy="333.7" r="5" fill="#a8491f"/>
+<circle cx="456.0" cy="295.7" r="5" fill="#a8491f"/>
+<circle cx="633.0" cy="245.5" r="5" fill="#a8491f"/>
+<circle cx="810.0" cy="192.8" r="5" fill="#a8491f"/>
+<circle cx="342" cy="440" r="4" fill="#a8491f"/>
+<text x="353" y="444" font-size="13" text-anchor="start" fill="#253141" font-weight="400">Batch / transaction</text>
+<polyline points="102.0,333.5 456.0,293.8 633.0,237.5 810.0,185.0" fill="none" stroke="#258265" stroke-width="3"/>
+<circle cx="102.0" cy="333.5" r="5" fill="#258265"/>
+<circle cx="456.0" cy="293.8" r="5" fill="#258265"/>
+<circle cx="633.0" cy="237.5" r="5" fill="#258265"/>
+<circle cx="810.0" cy="185.0" r="5" fill="#258265"/>
+<circle cx="582" cy="440" r="4" fill="#258265"/>
+<text x="593" y="444" font-size="13" text-anchor="start" fill="#253141" font-weight="400">Batch / autocommit</text>
+<polyline points="102.0,330.6 456.0,296.8 633.0,245.6 810.0,195.6" fill="none" stroke="#78468a" stroke-width="3"/>
+<circle cx="102.0" cy="330.6" r="5" fill="#78468a"/>
+<circle cx="456.0" cy="296.8" r="5" fill="#78468a"/>
+<circle cx="633.0" cy="245.6" r="5" fill="#78468a"/>
+<circle cx="810.0" cy="195.6" r="5" fill="#78468a"/>
+<circle cx="102" cy="461" r="4" fill="#78468a"/>
+<text x="113" y="465" font-size="13" text-anchor="start" fill="#253141" font-weight="400">loader</text>
+<polyline points="102.0,328.4 456.0,256.7 633.0,204.3 810.0,140.3" fill="none" stroke="#a47d0e" stroke-width="3"/>
+<circle cx="102.0" cy="328.4" r="5" fill="#a47d0e"/>
+<circle cx="456.0" cy="256.7" r="5" fill="#a47d0e"/>
+<circle cx="633.0" cy="204.3" r="5" fill="#a47d0e"/>
+<circle cx="810.0" cy="140.3" r="5" fill="#a47d0e"/>
+<circle cx="342" cy="461" r="4" fill="#a47d0e"/>
+<text x="353" y="465" font-size="13" text-anchor="start" fill="#253141" font-weight="400">statement</text>
+</g></svg>

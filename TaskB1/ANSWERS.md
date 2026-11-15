@@ -9,3 +9,5 @@ The timing fixture builds exact 1, 10 and 50 MiB logs using 128-byte LF-terminat
 For q lookups over n similarly-sized records, repeated scans use O(qn) worst-case time and O(maximum row length) working space. Loading valid rows once into a HashMap and applying a deterministic duplicate policy takes O(n) expected time and O(n) retained entries, then expected O(q) additional lookup work for bounded length keys. The map must be kept current on writes. Route output materialization uses O(k) records for k matches.
 
 At 50 MiB, the one-byte method used 52,428,801 read calls and averaged 65,093.22 ms. The block method used 6,401 calls and averaged 33.73 ms. These are Java read calls, not independently traced OS calls. At 100,000 rows the final-ID and absent-ID scans averaged 118.24 and 119.73 ms, respectively. The first-ID path stopped after one record. See both means tables and the raw CSV files.
+
+The full 1, 10 and 50 MiB benchmark is recorded in lines.csv. Its long repeat finished while the desktop returned a black capture, so the saved interactive screenshot uses a separate real 1 MiB run. Launch it with java -cp build FileBench lines smoke.

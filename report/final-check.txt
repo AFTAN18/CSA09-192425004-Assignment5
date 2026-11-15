@@ -1,0 +1,92 @@
+Restored DEMO01; password and connection omitted
+[P1003, 192311003, Divya, 7, 3800.0]
+null
+Line 2: Expected seven fields
+Line 3: null
+Line 4: Expected seven fields
+Line 2: Expected seven fields
+Line 3: null
+Line 4: Expected seven fields
+Line 2: Expected seven fields
+Line 3: null
+Line 4: Expected seven fields
+Line 2: Expected seven fields
+Line 3: null
+Line 4: Expected seven fields
+Line 2: Expected seven fields
+Line 3: null
+Line 4: Expected seven fields
+Line 2: Expected seven fields
+Line 3: null
+Line 4: Expected seven fields
+Duplicate pass ID
+Escaped name preserved. Missing IDs absent and two route records returned.
+records,repetition,target,ns
+1000,1,P1,582400
+1000,1,P1000,7260200
+1000,1,MISSING,5098800
+1000,2,P1,643700
+1000,2,P1000,7156700
+1000,2,MISSING,6322600
+1000,3,P1,769000
+1000,3,P1000,3866500
+1000,3,MISSING,5713200
+1000,4,P1,672300
+1000,4,P1000,7072400
+1000,4,MISSING,4790700
+1000,5,P1,589500
+1000,5,P1000,3232600
+1000,5,MISSING,5827500
+10000,1,P1,505700
+10000,1,P10000,13387900
+10000,1,MISSING,14500300
+10000,2,P1,551800
+10000,2,P10000,15377300
+10000,2,MISSING,12347600
+10000,3,P1,718300
+10000,3,P10000,11300000
+10000,3,MISSING,10880600
+10000,4,P1,497100
+10000,4,P10000,11227900
+10000,4,MISSING,10732200
+10000,5,P1,495400
+10000,5,P10000,10665100
+10000,5,MISSING,10217700
+100000,1,P1,627300
+100000,1,P100000,119819400
+100000,1,MISSING,117711900
+100000,2,P1,554100
+100000,2,P100000,107859000
+100000,2,MISSING,107770500
+100000,3,P1,604600
+100000,3,P100000,112580700
+100000,3,MISSING,109674300
+100000,4,P1,580200
+100000,4,P100000,110860300
+100000,4,MISSING,105506700
+100000,5,P1,627000
+100000,5,P100000,103850300
+100000,5,MISSING,108427700
+StudentDao MySQL insert, find, list, update and delete verified.
+Injected after debit
+MySQL balances observed in paise: 100000 and 20000
+MySQL balances observed in paise: 50000 and 70000
+correct fixture unsafe=true prepared=true
+wrong password unsafe=false prepared=false
+crafted input unsafe=true prepared=false
+Product: MySQL 8.4.13
+Driver: MySQL Connector/J mysql-connector-j-8.4.0 (Revision: 1c3f5c149e0bfe31c7fbeb24e2d260cd890972c4)
+Table: bus_pass
+Table: student
+Table: users
+Table: wallet
+Line 2: Expected seven fields
+Line 3: Duplicate in input
+Migrated and verified 2 valid rows; 2 validation failures.
+statement: pass_id=VARCHAR reg_no=VARCHAR name=VARCHAR route=INT amount=DECIMAL 
+prepared: pass_id=VARCHAR reg_no=VARCHAR name=VARCHAR route=INT amount=DECIMAL 
+batch: pass_id=VARCHAR reg_no=VARCHAR name=VARCHAR route=INT amount=DECIMAL 
+Injected duplicate, autocommit=true, SQLState=23000, persisted=500
+Injected duplicate, autocommit=false, SQLState=23000, persisted=0
+PassLoader invalid amount halfway, persisted=0
+Assignment 5 check process exit code: 0

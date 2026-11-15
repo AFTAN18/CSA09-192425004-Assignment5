@@ -33,3 +33,5 @@ The run uses synthetic rows. The JDBC benchmark truncates the disposable bus_pas
 | [B4](TaskB4/ANSWERS.md) | Two valid rows, two validation failures and live metadata |
 
 See the [assignment report](report/AssignmentReport.md). Local timings are elapsed wall-clock measurements from this machine, and can vary with caching, checkpointing and concurrent work.
+
+See the [evidence audit](EVIDENCE_AUDIT.md) for screenshot filenames, programming results and outstanding requirements.

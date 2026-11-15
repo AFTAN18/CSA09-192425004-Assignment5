@@ -29,7 +29,7 @@ public final class FileBench {
         return new long[]{lines, calls + 1};
     }
 
-    private static void count(Path path) throws IOException {
+    private static void count(Path path, int[] sizes) throws IOException {
         byte[] data = new byte[MIB];
         Arrays.fill(data, (byte) 'x');
         for (int i = 127; i < data.length; i += 128) data[i] = '\n';
@@ -41,7 +41,7 @@ public final class FileBench {
         scan(path, true);
         scan(path, false);
         System.out.println("mib,method,repetition,lines,read_calls,ns");
-        for (int mib : new int[]{1, 10, 50}) {
+        for (int mib : sizes) {
             try (OutputStream output = Files.newOutputStream(path)) {
                 for (int n = 0; n < mib; n++) output.write(data);
             }
@@ -86,7 +86,11 @@ public final class FileBench {
     public static void main(String[] args) throws IOException {
         Path path = Files.createTempFile("file-benchmark", ".txt");
         try {
-            if (args.length == 1 && args[0].equals("lines")) count(path);
+            if (args.length > 0 && args[0].equals("lines")) {
+                if (args.length == 2 && args[1].equals("smoke")) count(path, new int[]{1});
+                else if (args.length == 1) count(path, new int[]{1, 10, 50});
+                else throw new IllegalArgumentException("Use lines or lines smoke");
+            }
             else lookup(path);
         } finally { Files.deleteIfExists(path); }
     }
