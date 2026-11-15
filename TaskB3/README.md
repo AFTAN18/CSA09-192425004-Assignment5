@@ -1,23 +1,22 @@
-# TaskB3
+# TaskB3 · B3 · MySQL insert experiments
 
-[Written answers](ANSWERS.md) · [Test input](input/README.md)
+[Full answer](ANSWERS.md) · [Inputs](input/README.md) · [Logs and measurements](evidence)
 
-Ten-row metadata and content fixture. 1k/10k/100k batch growth, duplicate at row 501 and invalid decimal.
+## Screenshots
 
-Build with the [repository instructions](../README.md), then execute from that repository root.
+![JdbcBenchmark quick run](screenshots/JdbcBenchmark_quick_run.png)
 
-```powershell
-java -cp "build;PATH_TO_CONNECTOR_JAR" JdbcBenchmark quick
-java -cp "build;PATH_TO_CONNECTOR_JAR" JdbcBenchmark
-```
+![compilation success](screenshots/compilation_success.png)
 
-- [means.md](evidence/means.md)
-- [raw.csv](evidence/raw.csv)
-- [replicate.csv](evidence/replicate.csv)
-- [verification.txt](evidence/verification.txt)
+![JdbcBenchmark code](screenshots/JdbcBenchmark_code.png)
 
-## Genuine execution captures
+<details>
+<summary>More captures</summary>
 
-![JdbcBenchmark quick run](evidence/JdbcBenchmark_quick_run.png)
+![JdbcBenchmark code main](screenshots/JdbcBenchmark_code_main.png)
 
-![JdbcBenchmark run](evidence/JdbcBenchmark_run.png)
+![JdbcBenchmark run](screenshots/JdbcBenchmark_run.png)
+
+![PassLoader code](screenshots/PassLoader_code.png)
+
+</details>

@@ -1,17 +1,18 @@
-# TaskA3
+# TaskA3 · A3 · Generic data access
 
-[Written answers](ANSWERS.md) · [Test input](input/README.md)
+[Full answer](ANSWERS.md) · [Inputs](input/README.md) · [Logs and measurements](evidence)
 
-Disposable student record 000090001, then insert, find, list, update and delete.
+## Screenshots
 
-Build with the [repository instructions](../README.md), then execute from that repository root.
+![StudentDaoTest run](screenshots/StudentDaoTest_run.png)
 
-```powershell
-java -cp "build;PATH_TO_CONNECTOR_JAR" StudentDaoTest
-```
+![compilation success](screenshots/compilation_success.png)
 
-- [jdbc.txt](evidence/jdbc.txt)
+![StudentDao code](screenshots/StudentDao_code.png)
 
-## Genuine execution captures
+<details>
+<summary>More captures</summary>
 
-![StudentDaoTest run](evidence/StudentDaoTest_run.png)
+![StudentDaoTest code](screenshots/StudentDaoTest_code.png)
+
+</details>

@@ -1,17 +1,18 @@
-# TaskA5
+# TaskA5 · A5 · Wallet transaction and login
 
-[Written answers](ANSWERS.md) · [Test input](input/README.md)
+[Full answer](ANSWERS.md) · [Inputs](input/README.md) · [Logs and measurements](evidence)
 
-Wallet 101 has 100000 paise, wallet 102 has 20000, transfer 50000 and inject a failure after debit.
+## Screenshots
 
-Build with the [repository instructions](../README.md), then execute from that repository root.
+![WalletTest run](screenshots/WalletTest_run.png)
 
-```powershell
-java -cp "build;PATH_TO_CONNECTOR_JAR" WalletTest
-```
+![compilation success](screenshots/compilation_success.png)
 
-- [wallet.txt](evidence/wallet.txt)
+![WalletTest code](screenshots/WalletTest_code.png)
 
-## Genuine execution captures
+<details>
+<summary>More captures</summary>
 
-![WalletTest run](evidence/WalletTest_run.png)
+![WalletTest code main](screenshots/WalletTest_code_main.png)
+
+</details>

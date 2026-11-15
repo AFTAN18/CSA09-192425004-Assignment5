@@ -1,7 +1,7 @@
-# TaskA2
+# TaskA2 · A2 · Buffered attendance-log scanning
 
-[Written answers](ANSWERS.md) · [Test input](input/README.md)
+[Full answer](ANSWERS.md) · [Inputs](input/README.md)
 
-Generated LF logs with 128 bytes per line, empty file and final unterminated line.
+This design is exercised in [TaskB1](../TaskB1/README.md).
 
-Execution evidence is shared with [TaskB1](../TaskB1/README.md).
+![Supporting implementation](../TaskB1/screenshots/FileBench_lines_smoke_run.png)

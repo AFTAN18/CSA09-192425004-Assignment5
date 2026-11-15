@@ -1,17 +1,18 @@
-# TaskB4
+# TaskB4 · B4 · Migration and scale decision
 
-[Written answers](ANSWERS.md) · [Test input](input/README.md)
+[Full answer](ANSWERS.md) · [Inputs](input/README.md) · [Logs and measurements](evidence)
 
-Two valid escaped rows, a malformed line and a duplicate line. See passes.txt.
+## Screenshots
 
-Build with the [repository instructions](../README.md), then execute from that repository root.
+![Migration run](screenshots/Migration_run.png)
 
-```powershell
-java -cp "build;PATH_TO_CONNECTOR_JAR" Migration
-```
+![compilation success](screenshots/compilation_success.png)
 
-- [migration.txt](evidence/migration.txt)
+![Migration code](screenshots/Migration_code.png)
 
-## Genuine execution captures
+<details>
+<summary>More captures</summary>
 
-![Migration run](evidence/Migration_run.png)
+![Migration code main](screenshots/Migration_code_main.png)
+
+</details>

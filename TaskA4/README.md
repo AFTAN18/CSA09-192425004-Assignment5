@@ -1,17 +1,11 @@
-# TaskA4
+# TaskA4 · A4 · Serialization
 
-[Written answers](ANSWERS.md) · [Test input](input/README.md)
+[Full answer](ANSWERS.md) · [Inputs](input/README.md) · [Logs and measurements](evidence)
 
-Nested hostel, room and synthetic resident with transient runtime-only fields.
+## Screenshots
 
-Build with the [repository instructions](../README.md), then execute from that repository root.
+![SerializationDemo run](screenshots/SerializationDemo_run.png)
 
-```powershell
-java -cp build SerializationDemo
-```
+![compilation success](screenshots/compilation_success.png)
 
-- [serialization.txt](evidence/serialization.txt)
-
-## Genuine execution captures
-
-![SerializationDemo run](evidence/SerializationDemo_run.png)
+![SerializationDemo code](screenshots/SerializationDemo_code.png)

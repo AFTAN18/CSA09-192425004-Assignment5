@@ -1,17 +1,11 @@
-# TaskB2
+# TaskB2 · B2 · Adversarial inputs
 
-[Written answers](ANSWERS.md) · [Test input](input/README.md)
+[Full answer](ANSWERS.md) · [Inputs](input/README.md) · [Logs and measurements](evidence)
 
-Known fixture credential, wrong password and crafted identifier tested against local-only MySQL. Malformed rows also verified in B1.
+## Screenshots
 
-Build with the [repository instructions](../README.md), then execute from that repository root.
+![LoginExperiment run](screenshots/LoginExperiment_run.png)
 
-```powershell
-java -cp "build;PATH_TO_CONNECTOR_JAR" LoginExperiment
-```
+![compilation success](screenshots/compilation_success.png)
 
-- [login.txt](evidence/login.txt)
-
-## Genuine execution captures
-
-![LoginExperiment run](evidence/LoginExperiment_run.png)
+![LoginExperiment code](screenshots/LoginExperiment_code.png)

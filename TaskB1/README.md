@@ -1,40 +1,40 @@
-# TaskB1
+# TaskB1 · B1 · File store and measurement
 
-[Written answers](ANSWERS.md) · [Test input](input/README.md)
+[Full answer](ANSWERS.md) · [Inputs](input/README.md) · [Logs and measurements](evidence)
 
-Missing file, malformed rows, escaped name, duplicate and route results. 1/10/50 MiB log and 1k/10k/100k pass records.
+## Screenshots
 
-Build with the [repository instructions](../README.md), then execute from that repository root.
+![FileBench lines smoke run](screenshots/FileBench_lines_smoke_run.png)
 
-```powershell
-java -cp build PassStore
-java -cp build FullPassStore
-java -cp build FileBench lookup
-java -cp build FileBench lines
-java -cp build FileBench lines smoke
-```
+![compilation success](screenshots/compilation_success.png)
 
-- [file-tests.txt](evidence/file-tests.txt)
-- [jdk17-template.txt](evidence/jdk17-template.txt)
-- [line-means.md](evidence/line-means.md)
-- [line-smoke.csv](evidence/line-smoke.csv)
-- [lines.csv](evidence/lines.csv)
-- [lookup-means.md](evidence/lookup-means.md)
-- [lookup.csv](evidence/lookup.csv)
-- [todo.txt](evidence/todo.txt)
+![FileBench code](screenshots/FileBench_code.png)
 
-## Genuine execution captures
+<details>
+<summary>More captures</summary>
 
-![compilation success](evidence/compilation_success.png)
+![FileBench code main](screenshots/FileBench_code_main.png)
 
-![FileBench lines smoke run](evidence/FileBench_lines_smoke_run.png)
+![FileBench lookup run](screenshots/FileBench_lookup_run.png)
 
-![FileBench lookup run](evidence/FileBench_lookup_run.png)
+![FullPassStore code](screenshots/FullPassStore_code.png)
 
-![FullPassStore run](evidence/FullPassStore_run.png)
+![FullPassStore code main](screenshots/FullPassStore_code_main.png)
 
-![jdk17 compilation](evidence/jdk17_compilation.png)
+![FullPassStore run](screenshots/FullPassStore_run.png)
 
-![jdk17 template run](evidence/jdk17_template_run.png)
+![jdk17 compilation](screenshots/jdk17_compilation.png)
 
-![PassStore run](evidence/PassStore_run.png)
+![jdk17 template run](screenshots/jdk17_template_run.png)
+
+![PassStore code](screenshots/PassStore_code.png)
+
+![PassStore code main](screenshots/PassStore_code_main.png)
+
+![PassStore run](screenshots/PassStore_run.png)
+
+![PassStore template-jdk17 code](screenshots/PassStore_template-jdk17_code.png)
+
+![PassStore template-jdk17 code main](screenshots/PassStore_template-jdk17_code_main.png)
+
+</details>
