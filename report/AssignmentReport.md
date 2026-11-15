@@ -2,7 +2,7 @@
 
 Aftan Faiz · 192425004 · CO5
 
-GitHub repository link pending verification.
+GitHub repository [CSA09-192425004-Assignment5](https://github.com/AFTAN18/CSA09-192425004-Assignment5).
 
 ## A1 · Bus-pass file format
 
